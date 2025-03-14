@@ -3,7 +3,7 @@ from django.shortcuts import render
 from django.http import FileResponse
 import os
 
-def index(request):
+def text_to_speech(request):
     if request.method == "POST":
         text = request.POST.get("text")
         voice_type = request.POST.get("voice")  # "male" or "female"

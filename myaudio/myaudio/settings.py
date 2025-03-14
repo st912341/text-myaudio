@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'myaudio.urls'
+ROOT_URLCONF = 'myaudio.myaudio.urls'
 
 TEMPLATES = [
     {

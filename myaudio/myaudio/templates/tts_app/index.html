@@ -10,10 +10,19 @@
     <form action="" method="post">
         {% csrf_token %}
         <textarea name="text" rows="5" cols="50" placeholder="Enter your text here..."></textarea><br><br>
+        
+        <!-- Buttons for Male and Female Voice -->
         <button type="submit" name="voice" value="male">Male Voice</button>
-        <button type="submit" name="voice" value="female">Female Voice</button>
+        <button type="submit" name="voice" value="female">Female Voice</button><br><br>
+
+        <!-- Input for Speed (optional) -->
+        <label for="speed">Speed (WPM):</label>
+        <input type="number" name="speed" id="speed" value="140" min="50" max="300"><br><br>
+        
+        <!-- Submit button for form submission -->
+        <button type="submit">Convert to Speech</button>
     </form>
 
-    <h3>Created by sourbh tiwari</h3>
+    <h3>Created by Sourbh Tiwari</h3>
 </body>
 </html>

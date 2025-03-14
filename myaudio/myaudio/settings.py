@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'myaudio.wsgi.application'
+WSGI_APPLICATION = 'myaudio.myaudio.wsgi.application'
 
 
 # Database
